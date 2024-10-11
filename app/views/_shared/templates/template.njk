@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="es">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset=UTF-8 >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body data-page="{{ page }}">
+    <div class="zero-container">
+      {% block content %} {% endblock %}
+    </div>
+
+    <script src="/vendors/jquery.min.js"></script>
+    <script src="/vendors/what-input.min.js"></script>
+    <script src="/vendors/foundation.min.js"></script>
+    <script src="/js/vulkano-webcomponent.js"></script>
+    <script src="/js/simple-greeting.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
