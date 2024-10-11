@@ -1,10 +1,12 @@
 @import './scss/modules.scss';
+@import './scss/home.scss';
+@import './scss/fonts.scss';
 
 body{
-  background-color: white;
+  background-color: black;
 
   .zero-container{
-    padding: 20px;
+    padding: 0;
   }
 }
 
